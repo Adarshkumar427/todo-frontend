@@ -30,7 +30,7 @@ function logout() {
     <v-btn v-if="isLogin" color="red" class="log" @click="logout">Log out</v-btn>
     <v-btn @click="router.push('/userprofile')" icon="mdi-account" class="ml-2 " color="blue "></v-btn>
   </nav>
-
+  <!-- Add comment -->
   <RouterView />
 </template>
 
