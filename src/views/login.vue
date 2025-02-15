@@ -9,8 +9,8 @@ onMounted(() => {
     }
 })
 
-const email = ref("adams@gmail.com")
-const password = ref("12345")
+const email = ref("")
+const password = ref("")
 const router = useRouter()
 
 
